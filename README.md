@@ -108,7 +108,7 @@ gradle:
 
    Correct any bugs you find.
 
-   ------
+------
 
 9. Devise an algorithm for redoing an insert or remove operation on the
 UndoableBag. Here are some questions you may want to consider:
@@ -119,13 +119,13 @@ UndoableBag. Here are some questions you may want to consider:
    - How can we ensure that any operation that is repeated through the redo
      method can later be undone? Where might we store this Action?
 
-9. Implement your algorithm as method `boolean redo()` in `UndoableBag.java`.
+10. Implement your algorithm as method `boolean redo()` in `UndoableBag.java`.
 Consider using a switch case to determine which action is being repeated.
 Remember which method in `StackInterface.java` can be used to remove an Action
 from the top of a stack and similarly which method can be used to add an Action
 to the top of a stack.
 
-10. Test your `redo` method. You can run the provided tests automatically using
+11. Test your `redo` method. You can run the provided tests automatically using
 gradle:
 
     - `./gradlew test` (on Unix-like terminals such as those found on Mac,
@@ -134,8 +134,6 @@ gradle:
       Windows terminal)
 
     Correct any bugs you find.
-
-   ------
 
 ## Conclusion
 
