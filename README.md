@@ -35,12 +35,15 @@ closely and/or take notes as your TA introduces you to the concept of executing
 tests on GitHub through the `git push` command and the resulting output.
 
 Note that your programming assignments will come with unit tests that will be
-run for you each time you push to your submission repository.
+run for you each time you push to your submission repository. These will
+automatically be enabled. If you fork the Recitation 4 repository, and want the
+included tests to run in your fork, you'll need to navigate to the "Actions" tab
+on GitHub and enable them.
 
 ## Exercise
 
-1. Download the provided code by cloning this [Recitation 4
-repository](https://github.com/2217-cs445/cs445-rec4).  The starting code for
+1. Download the provided code by forking and cloning this [Recitation 4
+repository](https://github.com/2217-cs445/cs445-rec4). The starting code for
 this exercise, as usual, is found in subdirectory `app/src/main/java/`. Navigate
 to this subdirectory, then into the `cs445/rec4/` package folder within it. Note
 the following provided Java files:
